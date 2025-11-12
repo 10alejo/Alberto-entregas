@@ -1,0 +1,71 @@
+/* ----- ESTILOS GENERALES ----- */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* ----- CONTENEDOR DEL FORMULARIO ----- */
+form {
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* ----- CAMPOS Y ETIQUETAS ----- */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+/* Efecto al enfocar */
+input[type="text"]:focus {
+  border-color: #74ebd5;
+  outline: none;
+  box-shadow: 0 0 5px rgba(116, 235, 213, 0.5);
+}
+
+/* ----- BOTÓN (si añades uno) ----- */
+button, input[type="submit"] {
+  background-color: #74ebd5;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100%;
+  transition: background 0.2s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #5ec0ad;
+}
+
+/* ----- TÍTULO ----- */
+h1, h2, h3, h4 {
+  text-align: center;
+  color: #333;
+}
