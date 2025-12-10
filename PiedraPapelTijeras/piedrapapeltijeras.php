@@ -65,7 +65,7 @@
         
         else {
 
-            return "Gana el Jugador 2";
+            return "Gana la cpu ";
         }
     }
 
